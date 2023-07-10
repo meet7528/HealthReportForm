@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Trochut&family=Ysabeau+Infant:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h2>Health Report Submission Form</h2>
+    </header>
+    <div class="container">
+        <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <div>
+          <label>First Name : </label>
+          <input type="text" id="fn" placeholder="In Capital" />
+        </div>
+        <div>
+          <label for="">Last Name : </label>
+          <input type="text" id="ln" placeholder="In Capital" />
+        </div>
+        <div>
+          <label for="">Age : </label>
+          <input type="number" id="age" placeholder="In Years" />
+        </div>
+        <div>
+          <label for="">Weight : </label>
+          <input type="number" id="wgt" placeholder="In Kilo-Grams" />
+        </div>
+        <div>
+          <label for="">Email Id : </label>
+          <input type="email" id="email" placeholder="Working " />
+        </div>
+      </fieldset>
+    </div>
+    <div class="container2">
+      <fieldset>
+        <legend>Health Report</legend>
+        <label for="">Upload Health Report : </label>
+        <input type="file" id="file" placeholder="Not More Than 10 Mb" />
+      </fieldset>
+    </div>
+</form>
+    <div id="btn">
+      <button id="btn" value="submit" onclick="return checker()">SUBMIT</button>
+      <br />
+    </div>
+    <footer>
+      Created with Love<br />
+      Copyright 2023
+    </footer>
+  </body>
+</html>

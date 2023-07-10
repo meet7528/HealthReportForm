@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: "Trochut", cursive;
+    font-family: "Ysabeau Infant", sans-serif;
+}
+header{
+    background-color: rgb(80, 2, 80);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+body {
+    background-color: rgb(247, 246, 255);
+    color: black;
+    height: 1000px;
+}
+.container {
+    margin: 40px 100px 0px 100px;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+fieldset{
+    padding: 10px 50px 10px 50px;
+    font-size: 1.5rem;
+    margin:10px 30px 30px 30px;
+    font-weight: 600;
+}
+fieldset input{
+    margin: 20px;
+    padding: 5px;
+}
+fieldset input:hover , #btn button:hover{
+    background-color: rgb(255, 251, 200);
+}
+.container:hover ,.container2:hover{
+   
+    background-color: rgb(188, 181, 231);
+    box-shadow: 10px 10px 10px black;;
+}
+
+.container2 {
+    margin: 20px 100px 0px 100px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+#btn{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+#btn button{
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: rgb(99, 40, 99);
+    color: white;
+    font-weight: 600;
+    margin-top: 100px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 600px){
+    .container{
+        height: 600px;
+    }
+    fieldset{
+        padding: 0px;
+        font-size: 1rem;
+    }
+    .container2{
+        margin: 20px 50px 0px 50px;
+    }
+    
+}
